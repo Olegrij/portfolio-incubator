@@ -7,13 +7,13 @@ import {SectionWrapper} from "../../../components/Section";
 export const Main = () => {
     return (
         <StyledMain>
-           <SectionWrapper padding={"40px 0"}>
-               <FlexWrapper justify={"space-between"} align={"center"}>
-                   <StyledLikeH1>oleg<br />rijikov</StyledLikeH1>
-                   <MainTitle>UX | UI Designer & Developer<br />32 years old, Israel, Rosh-Hain</MainTitle>
-                   <span>RU|ENG</span>
-               </FlexWrapper>
-           </SectionWrapper>
+            <SectionWrapper padding={"40px 0px"}>
+                <FlexWrapper justify={"space-between"} align={"center"}>
+                    <StyledLikeH1>oleg<br/>rijikov</StyledLikeH1>
+                    <MainTitle>UX | UI Designer & Developer<br/>32 years old, Israel, Rosh-Hain</MainTitle>
+                    <span>RU|ENG</span>
+                </FlexWrapper>
+            </SectionWrapper>
             <Photo src={photo} alt=""/>
         </StyledMain>
     );

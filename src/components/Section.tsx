@@ -6,5 +6,5 @@ type SectionWrapperPropsType = {
 }
 
 export const SectionWrapper = styled.section<SectionWrapperPropsType>`
-    padding ${props => props.padding || "80px 0px"}
+  padding ${props => props.padding || "80px 0px"}
 `

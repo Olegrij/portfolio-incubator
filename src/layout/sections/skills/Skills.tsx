@@ -7,7 +7,7 @@ import {Skill} from "./skill/Skill";
 export const Skills = () => {
     return (
         <StyledSkills>
-            <SectionTitle>My title</SectionTitle>
+            <SectionTitle>Skills</SectionTitle>
             <FlexWrapper wrap={"wrap"} gap={"1rem"} justify={"center"}>
                 <Skill iconId={"code"}
                        title={"HTML5"}
