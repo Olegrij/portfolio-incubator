@@ -4,7 +4,7 @@ import {Main} from "./layout/sections/main/Main";
 import {Skills} from "./layout/sections/skills/Skills";
 import {About} from "./layout/sections/about/About";
 import {Projects} from "./layout/sections/projects/Projects";
-
+import {Contact} from "./layout/sections/contact/Contact";
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
             <About/>
             <Skills/>
             <Projects/>
+            <Contact/>
         </div>
     );
 }

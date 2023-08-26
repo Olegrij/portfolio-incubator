@@ -2,18 +2,15 @@ import React from 'react';
 import styled from "styled-components";
 import photo from '../../../assets/images/profile-photo.webp'
 import {FlexWrapper} from "../../../components/FlexWrapper";
-import {SectionWrapper} from "../../../components/Section";
 
 export const Main = () => {
     return (
         <StyledMain>
-            <SectionWrapper padding={"40px 0px"}>
-                <FlexWrapper justify={"space-between"} align={"center"}>
-                    <StyledLikeH1>oleg<br/>rijikov</StyledLikeH1>
-                    <MainTitle>UX | UI Designer & Developer<br/>32 years old, Israel, Rosh-Hain</MainTitle>
-                    <span>RU|ENG</span>
-                </FlexWrapper>
-            </SectionWrapper>
+            <FlexWrapper justify={"space-between"} align={"center"}>
+                <StyledLikeH1>oleg<br/>rijikov</StyledLikeH1>
+                <MainTitle>UX | UI Designer & Developer<br/>32 years old, Israel, Rosh-Hain</MainTitle>
+                <span>RU|ENG</span>
+            </FlexWrapper>
             <Photo src={photo} alt=""/>
         </StyledMain>
     );
