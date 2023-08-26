@@ -1,8 +1,5 @@
 import React from 'react';
-import {SectionTitle} from "../../../../components/SectionTitle";
 import styled from "styled-components";
-import {type} from "os";
-
 
 
 type ProjectPropsType = {

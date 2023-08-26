@@ -36,7 +36,7 @@ export const Footer = () => {
 };
 
 const StyledFooter = styled.footer`
-  min-height: 40svh;
+  //min-height: 40svh;
 `
 
 const SocialIconsList = styled.ul`
