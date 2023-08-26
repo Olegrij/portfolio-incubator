@@ -7,7 +7,7 @@ export const Menu = (props: { menuItems: Array<string> }) => {
             <ul>
                 {props.menuItems.map((item, index) => {
                     return <li key={index}>
-                        <a href="">{item}</a>
+                        <a>{item}</a>
                     </li>
                 })}
             </ul>
