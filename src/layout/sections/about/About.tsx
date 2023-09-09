@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Container} from "../../../components/Container";
-import {SkillsList} from "../../../components/aboutSkillsList/SkillsList";
+
 
 export const About = () => {
     return (
